@@ -1,4 +1,4 @@
-// solution1 RT: 144ms Memo: 42.4MB
+// submission1 RT: 144ms Memo: 42.4MB
 var twoSum = function (nums, target) {
   let result = []
   for (let i = 0; i < nums.length; i++) {
@@ -12,7 +12,7 @@ var twoSum = function (nums, target) {
   return result
 };
 
-// solution2 RT: 93ms Memo: 42.7MB
+// submission2 RT: 93ms Memo: 42.7MB
 var twoSum = function (nums, target) {
   let result = {}
   for (let i = 0; i < nums.length; i++) {
